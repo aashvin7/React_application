@@ -20,20 +20,20 @@ class Yami extends React.Component
 
       //age calculation is done here 
 
-function Calc()
-{
-  var en_year= parseInt(document.getElementById('eyear').value);
-  var b_year= parseInt(document.getElementById('year').value);
+// function Calc()
+// {
+//   var en_year= parseInt(document.getElementById('eyear').value);
+//   var b_year= parseInt(document.getElementById('year').value);
    
-  document.getElementById('result').value = en_year-b_year;
-}
+//   document.getElementById('result').value = en_year-b_year;
+// }
 
 function Bulb () /* styling works only in function*/
 {
  
   return<form>
     <div>
-    <Yami name="Vigneshwar Venugopal" />
+    <Yami name="Aashvin" />
       <h2 style={inlineStyle}>WELCOME</h2>
       <section>
       <div class="container" align="center">
@@ -64,7 +64,7 @@ function Bulb () /* styling works only in function*/
       <input type="number" id="year" name="byear" placeholder='yyyy' min="1" max="2023" />
       &nbsp; <button onClick={Calc}>Age</button>
       </h3>
-      <h3>Age:<output type='text' id='result'/></h3>  
+//       <h3>Age:<output type='text' id='result'/></h3>  
      </div>
       <h3>Mail ID:&nbsp;<input type="email" /></h3>
       <h3>Password:&nbsp;<input type="password" /></h3>
